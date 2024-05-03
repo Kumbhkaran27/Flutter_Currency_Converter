@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "mp5" "\0"
+            VALUE "FileDescription", "currency_convertor" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "mp5" "\0"
+            VALUE "InternalName", "currency_convertor" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "mp5.exe" "\0"
-            VALUE "ProductName", "mp5" "\0"
+            VALUE "OriginalFilename", "currency_convertor.exe" "\0"
+            VALUE "ProductName", "currency_convertor" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

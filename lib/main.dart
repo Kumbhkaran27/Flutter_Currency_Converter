@@ -1,5 +1,23 @@
+import 'package:currency_convertor/view/navigation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const Placeholder());
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Currency Converter',
+      theme: ThemeData(
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.orangeAccent),
+          useMaterial3: true,
+          fontFamily: 'Ariel'),
+      home: const BottomNavigationBarExampleApp(),
+    );
+  }
 }
